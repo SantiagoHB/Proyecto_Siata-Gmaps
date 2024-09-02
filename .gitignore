@@ -1,8 +1,19 @@
-# Ignorar el archivo de claves API de Google Maps
+# Ignorar archivos de configuración y credenciales
 gmapskey.env
-
-# Ignorar otras carpetas o archivos sensibles
-*.pkl
 *.env
-node_modules/
+
+# Ignorar archivos de salida de compilación o dependencias
+*.pyc
 __pycache__/
+node_modules/
+
+# Ignorar archivos de modelos
+*.pkl
+*.csv
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar configuraciones de editor de código
+.vscode/
+.idea/
