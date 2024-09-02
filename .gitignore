@@ -1,0 +1,8 @@
+# Ignorar el archivo de claves API de Google Maps
+gmapskey.env
+
+# Ignorar otras carpetas o archivos sensibles
+*.pkl
+*.env
+node_modules/
+__pycache__/
